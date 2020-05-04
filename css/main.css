@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*quitar scroll horizontales*/
+    overflow-x: hidden;
+    
+}
+center{
+    padding: 1%;
+    border: yellow;
+}
+
+body{    
+    /*insertamos la imagen de fondo */
+    background-image: url(img/fondo.jpg);
+    
+    /*que la imagen no se repita*/
+    background-repeat: no-repeat;
+    /*color de letra*/
+    color: white;
+    /*es para que el fondo quede fijo y no se pierda al darle scroll*/
+    background-attachment: fixed;
+    /*es para que el fondo se ajuste a la pantalla "cover" o "100% 100%"*/
+    background-size: 100% 100%;
+    
+}
+
+
+#formulario{
+    display: flex;
+    align-items: center;
+}
+.ccc{
+    overflow: hidden;
+}
